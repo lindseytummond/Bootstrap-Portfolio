@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-image: url(../images/oriental.png);
+}
+
+header {
+    background: #F6E7CB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    border-style: solid;
+    border-color: #FF695E;
+    border-width: 0px 0px 2px 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    justify-content: space-between;
+    display: flex;
+}
+
+.Name {
+    background-color: #28536B;
+    color: #F6E7CB;
+    padding: 10px;
+    padding-top: 16px;
+    width: 300px;
+    text-align: center;
+    float: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin-top: 10px;
+    color: #28536B;
+}
+
+.nav-link {
+    color: #28536B;
+}
+
+ul a:hover {
+    color: #FF695E;
+}
+
+.navbar-brand {
+    position: fixed;
+    width: 100%;
+    background-color: #F6E7CB;
+    color: #28536B;
+    text-align: center;
+    font-size: 14px;
+    border-style: solid;
+    border-color: #FF695E;
+    border-width: 2px 0px 0px 0px;
+    padding-bottom: 30px;
+}
