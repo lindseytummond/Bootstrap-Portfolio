@@ -78,6 +78,7 @@ form {
 
 .photos {
     height: 800px;
+    position: relative;
 }
 
 .navbar-brand {
@@ -92,4 +93,13 @@ form {
     padding-bottom: 30px;
 }
 
+@media screen and (max-width: 640px) {
+    
+    .photos {
+        margin-top: 30px;
+        min-height: 1250px;
+    }
 
+    .images {
+        margin: 5px;
+    }
