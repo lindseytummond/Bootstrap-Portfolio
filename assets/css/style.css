@@ -2,11 +2,11 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    background-image: url(../images/oriental.png);
+    background-image: url(../images/blu_stripes_@2X.png);
 }
 
 header {
-    background: #F6E7CB;
+    background: #45a745;
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: auto;
     max-width: 100%;
@@ -14,27 +14,26 @@ header {
     text-align: center;
     margin: 0px auto;
     border-style: solid;
-    border-color: #FF695E;
-    border-width: 0px 0px 2px 0px;
+    border-color: #FFDFEC;
+    border-width: 0px 0px 4px 0px;
+    
 }
 
 .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0px auto;
     clear: both;
     justify-content: space-between;
     display: flex;
 }
 
 .Name {
-    background-color: #28536B;
-    color: #F6E7CB;
+    background-color: #FFDFEC;
+    color: #45a745;
     padding: 10px;
-    padding-top: 16px;
     width: 300px;
     text-align: center;
-    float: center;
     font-size: 24px;
     text-decoration: none;
     font-weight: bold;
@@ -42,26 +41,51 @@ header {
 
 .nav-item {
     margin-top: 10px;
-    color: #28536B;
+    color: #FFDFEC;
 }
 
 .nav-link {
-    color: #28536B;
+    color: #FFDFEC;
 }
 
 ul a:hover {
-    color: #FF695E;
+    color: #C7D9E0;
+}
+
+hr {
+    width: 99%;
+}
+
+.body-header {
+    color: #45A745;
+}
+
+form {
+    margin: 30px auto;
+    height: 600px;
+    width: 100%;
+    max-width: 960px;
+    background-color: #C7D9E0;
+    border-color: #929090;
+    border-style: solid;
+    border-width: 2px;   
+    padding: 30px;
+}
+
+.form-group {
+    color: #929090;
 }
 
 .navbar-brand {
-    position: fixed;
     width: 100%;
-    background-color: #F6E7CB;
-    color: #28536B;
+    position: fixed;
+    background-color: #349B5C;
     text-align: center;
     font-size: 14px;
     border-style: solid;
-    border-color: #FF695E;
-    border-width: 2px 0px 0px 0px;
+    border-color: #FFDFEC;
+    border-width: 4px 0px 0px 0px;
     padding-bottom: 30px;
 }
+
+
