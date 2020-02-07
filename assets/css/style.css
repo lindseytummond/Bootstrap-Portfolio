@@ -81,6 +81,18 @@ form {
     position: relative;
 }
 
+.italy {
+    color: #349B5C;
+    background-color: #FFDFEC;
+    opacity: 0.7;
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 15px;
+}
+
 .navbar-brand {
     width: 100%;
     position: fixed;
@@ -94,12 +106,25 @@ form {
 }
 
 @media screen and (max-width: 640px) {
-    
+    .about-me{
+        height:1000px;
+    }
+
     .photos {
         margin-top: 30px;
-        min-height: 1250px;
+        height: 1250px;
     }
 
     .images {
         margin: 5px;
     }
+
+    .italy {
+        left: 20px;
+    }
+
+    .Name {
+        width: 150px;
+    }
+
+    
