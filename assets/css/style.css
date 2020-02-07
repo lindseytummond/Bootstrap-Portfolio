@@ -76,6 +76,10 @@ form {
     color: #929090;
 }
 
+.photos {
+    height: 800px;
+}
+
 .navbar-brand {
     width: 100%;
     position: fixed;
