@@ -2,11 +2,11 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    background-image: url(../images/blu_stripes_@2X.png);
+    background-image: url(../images/oriental.png);
 }
 
 header {
-    background: #45a745;
+    background: #F6E7CB;
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: auto;
     max-width: 100%;
@@ -14,7 +14,7 @@ header {
     text-align: center;
     margin: 0px auto;
     border-style: solid;
-    border-color: #FFDFEC;
+    border-color: #FF695E;
     border-width: 0px 0px 4px 0px;
     
 }
@@ -29,8 +29,8 @@ header {
 }
 
 .Name {
-    background-color: #FFDFEC;
-    color: #45a745;
+    background-color: #28536B;
+    color: #F6E7CB;
     padding: 10px;
     width: 300px;
     text-align: center;
@@ -41,15 +41,15 @@ header {
 
 .nav-item {
     margin-top: 10px;
-    color: #FFDFEC;
+    color: #28536B;
 }
 
 .nav-link {
-    color: #FFDFEC;
+    color: #28536B;
 }
 
 ul a:hover {
-    color: #C7D9E0;
+    color: #FF695E;
 }
 
 hr {
@@ -57,7 +57,7 @@ hr {
 }
 
 .body-header {
-    color: #45A745;
+    color: #28536B;
 }
 
 form {
@@ -65,8 +65,8 @@ form {
     height: 600px;
     width: 100%;
     max-width: 960px;
-    background-color: #C7D9E0;
-    border-color: #929090;
+    background-color: #F6E7CB;
+    border-color: #FF695E;
     border-style: solid;
     border-width: 2px;   
     padding: 30px;
@@ -87,8 +87,8 @@ form {
 }
 
 .portfolio-project-images {
-    color: #349B5C;
-    background-color: #FFDFEC;
+    color: #FF695E;
+    background-color: #28536B;
     opacity: 0.7;
     text-align: center;
     padding: 8px;
@@ -101,11 +101,11 @@ form {
 .navbar-brand {
     width: 100%;
     position: fixed;
-    background-color: #349B5C;
+    background-color: #F6E7CB;;
     text-align: center;
     font-size: 14px;
     border-style: solid;
-    border-color: #FFDFEC;
+    border-color: #FF695E;
     border-width: 4px 0px 0px 0px;
     padding-bottom: 30px;
 }
@@ -122,10 +122,6 @@ form {
 
     .images {
         margin: 5px;
-    }
-
-    .italy {
-        left: 20px;
     }
 
     .Name {
